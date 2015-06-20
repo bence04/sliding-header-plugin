@@ -4,9 +4,12 @@ This plugin uses no libraries, like jQuery, and relies on pure JavaScript and a 
 Use it to hide an element on your page, for example a header, when scrolling your page down, but show it up again when scrolling up.
 It's called 'sliding-header-plugin' but you can customize it to perform a different animation.
 
+Inspired in [this fiddle](http://jsfiddle.net/edwardomni/D58vx/4/)
+
+
 
 ## How to use
-Load the slidingHeader.js file into your page, and create a new instance of SlidingHeader on the bottom of your <body>.
+Load the slidingHeader.js file into your page, and create a new instance of SlidingHeader on the bottom of your body.
 Then pass an object with the following properties:
 * element: this is your target element (required)
 * class: custom class name used to hide the element (optional. Defaults to 'to_scroll')
