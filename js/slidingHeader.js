@@ -50,7 +50,7 @@ SlidingHeader.prototype.slide = function(element, elementSettings) {
 			offset = elementHeight;
 
 			if (!element.classList.contains(targetClass)) {
-				element.className = element.className + targetClass;
+				element.className = element.className + ' ' + targetClass;
 			}
 		} else {
 			offset = offset + position;
